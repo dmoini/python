@@ -20,6 +20,12 @@ def clear_screen():
     os.system('clear')
 
 
+def reset_board():
+    global inputs, board
+    inputs = ["#", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    board = ["#", " ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+
 def player_input():
     letter = ""
     while not (letter == "X" or letter == "O"):
@@ -93,9 +99,9 @@ def play_tic_tac_toe(board, inputs, players):
                     xo += 1
                     player = players[xo % 2]
                     clear_screen()
-        board = ["#", " ", " ", " ", " ", " ", " ", " ", " ", " "]
-        inputs = ["#", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
+        reset_board()
         if not replay():
+            clear_screen()
             break
 
 
