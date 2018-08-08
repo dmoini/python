@@ -16,7 +16,7 @@ def chudnovskyPi(precision):
     pi *= Decimal(426880) * Decimal(10005).sqrt()
     return pi * -1
 
-def pi(precision=10):
+def pi(precision):
     if precision > 100:
         print("This only goes up to 100 digits. Please input a new precision that is less than 100.")
     else:
