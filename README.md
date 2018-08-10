@@ -9,3 +9,4 @@ Various projects completed with Python
 - **pi.py**: Calculates pi to the nth digit.
 - **prime_factorization**: Finds all prime factors of any number.
 - **tictactoe.py**: Play a game of tic-tac-toe via the command line.
+- **tile_cover.py**: Calculates the total cost of number of tiles it would take to cover a floor of width and height, using a cost entered by the user.
