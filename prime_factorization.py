@@ -11,7 +11,10 @@ def prime_factorization(n):
             n /= i
     if n > 2:
         primes.append(int(n))
+    # if len(primes) == 1:
+    #     return str(primes[0]) + " is a prime number."
     return primes
 
 
-print(prime_factorization(10))
+n = int(input("Please input a number: "))
+print(prime_factorization(n))
