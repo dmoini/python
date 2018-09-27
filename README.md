@@ -5,6 +5,7 @@ Various projects completed with Python
 - **collatz_conjecture.py**: Demonstrates the Collatz conjecture.
 - **e.py**: Calculates e to the nth digit.
 - **fibonacci.py**: Calculates nth fibonacci number.
+- **knights.py**: Returns the minimum number of moves for a knight piece in chess to move from one square to another.
 - **next_prime_number.py**: Continually finds the next prime number.
 - **pi.py**: Calculates pi to the nth digit.
 - **prime_factorization**: Finds all prime factors of any number.
